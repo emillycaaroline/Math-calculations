@@ -7,6 +7,8 @@
 </head>
 <body>
 <h2>Calculadora de Média</h2>
+
+<!-- calcula a média de tres numeros -->
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <label for="numero1">Digite um número:</label><br>
         <input type="number" name="numero1" id="numero1" required><br>
